@@ -9,7 +9,7 @@
              [:meta {:http-equiv "X-UA-Compatible" :content "IE=edge,chrome=1"}]
              [:meta {:name "viewport"
                      :content "width=device-width, initial-scale=1.0, user-scalable=no"}]
-             (hp/include-css "https://npmcdn.com/basscss@8.0.1/css/basscss.min.css")
+             (hp/include-css "https://unpkg.com/basscss@8.0.1/css/basscss.min.css")
              (hp/include-css "https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic")]
             [:body {:style "font-family: 'Open Sans', sans-serif; max-width: 900px; margin: 40px auto;"}
              contents]))
